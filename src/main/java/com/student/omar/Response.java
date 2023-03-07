@@ -1,5 +1,10 @@
-package com.example.demo;
+package com.student.omar;
 
+/**
+ * Clase contenido de la respuesta
+ * @author omarar
+ *
+ */
 public class Response {
 	private int result;
 
