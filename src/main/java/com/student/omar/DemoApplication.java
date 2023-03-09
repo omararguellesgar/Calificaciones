@@ -1,12 +1,15 @@
-package com.example.demo;
+package com.student.omar;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class DemoApplication extends SpringBootServletInitializer {
+public class DemoApplication {
 
+	/**
+	 * Metodo para iniciar spring
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
