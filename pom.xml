@@ -9,30 +9,38 @@
 		<version>2.7.4</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-<<<<<<< HEAD
-	
-	<groupId>com.student.omar</groupId>
-	<artifactId>demoomar</artifactId>
-	
-=======
-	<groupId>com.student.omar</groupId>
+	<groupId>com.example</groupId>
 	<artifactId>demo</artifactId>
->>>>>>> 199aeda6d45345cb38668e4915c2433cf04eb6d6
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demoomar</name>
+	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>8</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
+			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
 	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
 </project>
