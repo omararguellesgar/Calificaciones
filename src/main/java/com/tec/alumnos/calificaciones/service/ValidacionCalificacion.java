@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 import com.tec.alumnos.calificaciones.model.response.ResponseCalificacion;
 
 @Service
-public class ValidacionDeCalificacion {
+public class ValidacionCalificacion {
 	/**
 	 * Metodo para obtener el caso por alumno, su calificaion final y si esta
 	 * aprobado
@@ -14,7 +14,7 @@ public class ValidacionDeCalificacion {
 	 * @return
 	 */
 
-	public ResponseCalificacion getCalificacion(double idEstudiante) {
+	public ResponseCalificacion getCalificacion(long idEstudiante) {
 		ResponseCalificacion responseCalificacion = new ResponseCalificacion();
 		if (idEstudiante == 1) {
 			responseCalificacion.setCalificacionFinal(9.9);

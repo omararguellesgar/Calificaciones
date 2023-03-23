@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.tec.alumnos.calificaciones.model.response.ResponseCalificacion;
-import com.tec.alumnos.calificaciones.service.ValidacionDeCalificacion;
+import com.tec.alumnos.calificaciones.service.ValidacionCalificacion;
 
 @RestController
 public class ValidacionController {
@@ -15,7 +15,7 @@ public class ValidacionController {
 	 * Inyeccion del servicio calificaciones
 	 */
 	@Autowired
-	private ValidacionDeCalificacion calificacion;
+	private ValidacionCalificacion calificacion;
 
 	/**
 	 * Metodo con el param y el response
@@ -24,7 +24,7 @@ public class ValidacionController {
 	 * @return retorno datos del estudiante
 	 */
 	@GetMapping("/getCalificacionEstudiante")
-	public ResponseCalificacion getCalificacion(@RequestParam double idEstudiante) {
+	public ResponseCalificacion getCalificacion(@RequestParam long idEstudiante) {
 
 		/**
 		 * Retorno del objeto
