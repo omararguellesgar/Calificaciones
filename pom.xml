@@ -9,11 +9,11 @@
 		<version>2.7.4</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.tec.alumnos</groupId>
-	<artifactId>calificaciones</artifactId>
+	<groupId>com.tec.alumnos.lista</groupId>
+	<artifactId>calificaciones1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>calificaciones</name>
-	<description>Demo project for Spring Boot</description>
+	<name>calificaciones1</name>
+	<description>Spring Boot listaCalificaciones</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>

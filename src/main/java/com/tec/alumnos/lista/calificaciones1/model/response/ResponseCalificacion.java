@@ -1,4 +1,4 @@
-package com.tec.alumnos.calificaciones.model.response;
+package com.tec.alumnos.lista.calificaciones1.model.response;
 
 public class ResponseCalificacion {
 	private double calificacionFinal;
@@ -60,4 +60,5 @@ public class ResponseCalificacion {
 	public void setAprobado(boolean aprobado) {
 		this.aprobado = aprobado;
 	}
+
 }
